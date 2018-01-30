@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Resume of 陳勇嘉</title>
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<style type="text/css">@import url(//fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);@charset "utf-8";@-webkit-viewport   { width: device-width; }
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume of 陳勇嘉</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
 @-moz-viewport      { width: device-width; }
 @-ms-viewport       { width: device-width; }
 @-o-viewport        { width: device-width; }
@@ -308,9 +311,7 @@ blockquote,
 .contact-item,
 .publication,
 .skills,
-.interests,
-.job-details,
-.job {
+.interests {
   page-break-inside: avoid;
 }
 
@@ -401,11 +402,37 @@ blockquote,
           <!-- ABOUT ME -->
           <div class="box">
             <h2><i class="fa fa-user ico"></i> About</h2>
-            <p>Hi, 我是 Noel，是個軟體工程師，主要擅長網站後端開發與 Ruby，喜歡探索與嘗試有趣的 Ruby 應用服務、以及去挖掘並深入了解框架或套件的實現原理以及體會語言的美妙，而也會利用 Ruby 來開發些有趣的作品像是 Line Bot，串接了查詢資料的 API、並提供諸如使用 Dropbox 來下載檔案與上傳的自動化小任務等等；除了 Ruby ，也樂於學習其他的框架或語言，像是 Node.js 來處理適合即時型或 I/O 密集的網路應用。而平常則會利用閒暇時間去閱讀相關的網路文章或書籍，並樂於將自身所學分享給他人，因為我相信知識是流動的，才會相互傳遞，而且我也相信這種熱情與努力也是會傳染並影響給他人，社群才會有所成長與進步。 <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp而在解決問題或是學習的過程中，我很喜歡問自己『為什麼』，因為我認為身為工程師重要的不單是解決問題，更重要的是懂得解決什麼問題、為何解決以及如何解決，心中才能有系統地建構脈絡，並找到其中的價值與關鍵，進而有效地解決問題，並且將成果回饋於自己，才得以成長與前進的動力，這也是我不斷努力與維持的做事方式與目標。</p>
+            <p>Hi, 我是 Noel，是個軟體工程師，主要擅長網站後端開發與 Ruby，喜歡探索與嘗試有趣的 Ruby 應用服務、以及去挖掘並深入了解框架或套件的實現原理以及體會語言的美妙，而也會利用 Ruby 來開發些有趣的作品像是 Line Bot，串接了查詢資料的 API、並提供諸如使用 Dropbox 來下載檔案與上傳的自動化小任務等等；除了 Ruby ，也樂於學習其他的框架或語言，像是 Node.js 來處理適合即時型或 I/O 密集的網路應用。而平常則會利用閒暇時間去閱讀相關的網路文章或書籍，並樂於將自身所學分享給他人，因為我相信知識是流動的，才會相互傳遞，而且我也相信這種熱情與努力也是會傳染並影響給他人，社群才會有所成長與進步。</p>
           </div>
           <!-- WORK EXPERIENCE -->
           <div class="box">
             <h2><i class= "fa fa-suitcase ico"></i> Work Experience</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Shopline 商線科技</div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;shopline.tw&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> https:&#x2F;&#x2F;shopline.tw&#x2F;</a>
+                    </div>
+                    <div class="year">March 2017 – Present</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Web Developer</div>
+                    <div class="description">
+                      網路開店平台，提供強大電商功能，整合金物流、行銷工具，幫助快速打造個人的網路旗艦店
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">串接、整合黑貓物流，建立可測試、易拓展的各個協作物件，並且能產生運送單以及自動化追蹤最新動態</li>
+                        <li class="list-group-item">使用 Grape 來建立開放 API，並參照 Rails 風格來管理專案的套件相依性以及功能拓展</li>
+                        <li class="list-group-item">參照 Doorkeepr 來建立客製化的 Auth 機制來支援 Shopline 的開放 API 的使用授權與認證，以及未來 OAuth 的拓展需求</li>
+                        <li class="list-group-item">補齊、編寫各種商務邏輯的功能測試，使用 VCR 來處理具有複雜的外部相依請求之測試</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class="job clearfix">
                 <div class="row">
                   <div class="details">
@@ -509,14 +536,14 @@ blockquote,
             </div>
             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
-              <div class="title only pull-right"><a href="/cdn-cgi/l/email-protection#2d59485f5f425f485f141414146d454259404c4441034e4240" target="_blank"><span class="__cf_email__" data-cfemail="95e1f0e7e7fae7f0e7acacacacd5fdfae1f8f4fcf9bbf6faf8">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a></div>
+              <div class="title only pull-right"><a href="mailto:terrorer9999@hotmail.com" target="_blank">terrorer9999@hotmail.com</a></div>
             </div>
             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fa fa-globe fa-fw"></span></div>
-              <div class="title only pull-right"><a href="http:&#x2F;&#x2F;blog.noelsaga.net&#x2F;" target="_blank">http:&#x2F;&#x2F;blog.noelsaga.net&#x2F;</a></div>
+              <div class="title only pull-right"><a href="http:&#x2F;&#x2F;blog.noelchen.tw&#x2F;" target="_blank">http:&#x2F;&#x2F;blog.noelchen.tw&#x2F;</a></div>
             </div>
             <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-github-square fa-fw"></span></div>
+              <div class="icon pull-left text-center"><span class="fa fa-github fa-fw"></span></div>
               <div class="title pull-right">Github</div>
               <div class="description pull-right"><a href="http:&#x2F;&#x2F;github.com&#x2F;noel9999" target="_blank">noel9999</a></div>
             </div>
@@ -607,10 +634,6 @@ blockquote,
         </div>
       </div>
     </div>
-    <!-- JQUERY -->
-    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
-    <!-- BOOTSTRAP -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+  </body>
 </html>
