@@ -2,7 +2,7 @@
   "basics": {
     "name": "Noel Chen",
     "label": "Web Developer",
-    "picture": "https://cdn-pro.dprcdn.net/files/acc_121107/9vVMFa",
+    "picture": "https://pbs.twimg.com/profile_images/459521530938920960/HTVvQUUG_400x400.jpeg",
     "email": "terrorer9999@hotmail.com",
     "phone": "0913696661",
     "website": "http://blog.noelchen.tw/",
@@ -28,10 +28,11 @@
       "position": "Web Developer",
       "website": "https://shopline.tw/",
       "startDate": "2017-03-15",
+      "endDate": "2018-07-06",
       "summary": "The Easiest Online Shop Builder in Asia",
       "highlights": [
         "Integrate with TCat to create objects that provide the utility to update delivery information and generate delivery order file.",
-        "Use Grape to build lightwrighy API for the third party and manage its library dependecy by follow Rails style.",
+        "Use Grape to build lightweight API for the third party and manage its library dependency by follow Rails style.",
         "Use Doorkeeper to build customerized Auth Service to support the API that available for the public.",
         "Use RSpec to write test for complicated logic such as order checkout or the function that needs the support from outside world."
       ]
