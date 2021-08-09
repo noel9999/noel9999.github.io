@@ -2,11 +2,10 @@
   "basics": {
     "name": "Noel Chen",
     "label": "Web Developer",
-    "picture": "https://pbs.twimg.com/profile_images/459521530938920960/HTVvQUUG_400x400.jpeg",
+    "image": "https://pbs.twimg.com/profile_images/459521530938920960/HTVvQUUG_400x400.jpeg",
     "email": "terrorer9999@hotmail.com",
-    "phone": "0913696661",
-    "website": "http://blog.noelchen.tw/",
-    "summary": "Hi, I'm Noel, an experienced web developer mainly using Ruby on Rails to create great product. I always keep my way toward the objective which is to write the clean and beautiful code to make people happier and enjoy digging out anything useful and meaningful to make life solid.",
+    "url": "http://blog.noelchen.tw/",
+    "summary": "Hi, I'm Noel, an experienced web developer mainly using Ruby on Rails to create great product. I always keep my way toward the object that writes the clean and beautiful code to make people happier, and dying to dig out anything useful and meaningful to make life solid.",
     "location": {
       "address": "",
       "postalCode": "108",
@@ -24,26 +23,47 @@
   },
   "work": [
     {
-      "company": "Shopline",
-      "position": "Web Developer",
-      "website": "https://shopline.tw/",
-      "startDate": "2017-03-15",
-      "endDate": "2018-07-06",
-      "summary": "The Easiest Online Shop Builder in Asia",
+      "name": "Snapask",
+      "position": "Senior backend developer",
+      "url": "https://sofasoda.com/zh-TW/",
+      "startDate": "2018-11-29",
+      "description": "Career transformation starts at sofasoda",
       "highlights": [
-        "Integrate with TCat to create objects that provide the utility to update delivery information and generate delivery order file.",
-        "Use Grape to build lightweight API for the third party and manage its library dependency by follow Rails style.",
-        "Use Doorkeeper to build customerized Auth Service to support the API that available for the public.",
-        "Use RSpec to write test for complicated logic such as order checkout or the function that needs the support from outside world."
+        "Build payment and subscriptions system",
+        "Build coupon and promotion system",
+        "Build online shop for selling digital courses and cousulting service",
+        "Build video course platform",
+        "Build 1 on 1 consulting system",
+        "Build appointment question system for students",
+        "Build resume generator",
+        "Build chat room by using PUBNUB",
+        "Build notification system",
+        "Build log tracking system",
+        "Integrate ezpay and neweb with our payment system",
+        "Write RSpec for all functions as above"
       ]
     },
     {
-      "company": "commandp",
+      "name": "Shopline",
       "position": "Web Developer",
-      "website": "https://commandp.com/",
+      "url": "https://shopline.tw/",
+      "startDate": "2017-03-15",
+      "endDate": "2018-06-30",
+      "description": "The Easiest Online Shop Builder in Asia",
+      "highlights": [
+        "Integrate with TCat to create objects that provide the utility to update delivery information and generate delivery order file.",
+        "Use Grape to build lightwrighy API for the third party and manage its library dependecy by follow Rails style.",
+        "Use Doorkeeper to build customerized Auth Service to support the API that available for the public.",
+        "Use Rspec to write test for complicated logic such as order checkout or the function that needs the support from outside world."
+      ]
+    },
+    {
+      "name": "commandp",
+      "position": "Web Developer",
+      "url": "https://commandp.com/",
       "startDate": "2014-11-03",
       "endDate": "2017-01-26",
-      "summary": "commandp is a start-up that helps individuals to create their own customized products such as phone case, t-shirt, and etc.",
+      "description": "commandp is a start-up that helps individuals to create their own customized products such as phone case, t-shirt, and etc.",
       "highlights": [
         "Use RJS and jQuery to build the internal system interface for admin and shop.",
         "Use AASM to manage the status and activity of an order.",
@@ -54,16 +74,16 @@
         "Create daily task to dump requird data and display it with forms by C3.js.",
         "Intergate with thrid party API like Stripe, Mailgun, SMS King, Zendesk, and Emay etc.",
         "Write test for any kinds of backend utlity by following TDD.",
-        "Help and support front end developers to build universal javascript website from Rails."
+        "Help and support front end developers to build universal javascript url from Rails."
       ]
     },
     {
-      "company": "UrCosme",
+      "name": "UrCosme",
       "position": "Web Developer",
-      "website": "https://www.urcosme.com/",
+      "url": "https://www.urcosme.com/",
       "startDate": "2013-08-01",
       "endDate": "2014-08-31",
-      "summary": "UrCosme is a SNS for cosme products",
+      "description": "UrCosme is a SNS for cosme products",
       "highlights": [
         "Create admin app for manage users, products, categories, and so on.",
         "Create a channel BeautyBuizz for display highlights posts.",        
@@ -116,11 +136,10 @@
       "keywords": [
         "HTML",
         "Bootstrap",
-        "jQuery",
-        "JavaScript",
+        "JQuery",
+        "Javascript",
         "CoffeeScript",
         "Node.js/ Express.js",
-        "Python",
         "Ruby",
         "Rails",
         "Sinatra",
