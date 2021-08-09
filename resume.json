@@ -29,18 +29,18 @@
       "startDate": "2018-11-29",
       "description": "Career transformation starts at sofasoda",
       "highlights": [
-        "Build payment and subscriptions system",
-        "Build coupon and promotion system",
-        "Build online shop for selling digital courses and cousulting service",
-        "Build video course platform",
-        "Build 1 on 1 consulting system",
-        "Build appointment question system for students",
-        "Build resume generator",
-        "Build chat room by using PUBNUB",
-        "Build notification system",
-        "Build log tracking system",
-        "Integrate ezpay and neweb with our payment system",
-        "Write RSpec for all functions as above"
+        "Build one time purchase and subscriptions system to allow users to access the learing resources on our platform.",
+        "Build coupon and promotion system to apply different kinds of discount when purchasing.",
+        "Build online shop for selling digital courses and cousulting service in the form of bundle pacakge.",
+        "Build video course platform which allows users to watch video courses or particiate in a living course.",
+        "Build 1 on 1 consulting service which allows users to make an appointemt with the mentor for career consultation.",
+        "Build appointment question system for students to ask an question for a mentor at a specific time.",
+        "Build resume generator system which help users to build his/her own customized resume pdf.",
+        "Build chat room by using PUBNUB which is a service that provides the functionality based on real-time communication.",
+        "Build notification system to notify event/system messages to users throug mails, sms, and on site notfication.",
+        "Build log tracking system which allows data team or customer service staff to check what activities of an object it might been through.",
+        "Integrate ezpay and neweb with our payment system.",
+        "Write RSpec for all functions as above."
       ]
     },
     {
