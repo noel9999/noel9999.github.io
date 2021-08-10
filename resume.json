@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Noel Chen",
-    "label": "Web Developer",
+    "label": "Senior backend developer",
     "image": "https://pbs.twimg.com/profile_images/459521530938920960/HTVvQUUG_400x400.jpeg",
     "email": "terrorer9999@hotmail.com",
     "url": "http://blog.noelchen.tw/",
-    "summary": "Hi, I'm Noel, an experienced web developer, who mainly uses Ruby on Rails to create great product. I always take writing clean and beautiful code to make people happier as my goal. Also, I am desperate to dig out any useful and meaningful things to make life solid.",
+    "summary": "Hi, I'm Noel, an experienced backend developer, who mainly uses Ruby on Rails to create great product. I always take writing clean and beautiful code to make people happier as my goal. Also, I am desperate to dig out any useful and meaningful things to make life solid.",
     "location": {
       "address": "",
       "postalCode": "108",
@@ -29,16 +29,16 @@
       "startDate": "2018-11-29",
       "description": "Career transformation starts at sofasoda",
       "highlights": [
-        "Build one time purchase and subscriptions system to allow users to access the learing resources on our platform.",
+        "Build one time purchase and subscription system to allow users to access the learning resources on our platform.",
         "Build coupon and promotion system to apply different kinds of discount when purchasing.",
-        "Build online shop for selling digital courses and cousulting service in the form of bundle pacakge.",
-        "Build video course platform which allows users to watch video courses or particiate in a living course.",
-        "Build 1 on 1 consulting service which allows users to make an appointemt with the mentor for career consultation.",
-        "Build appointment question system for students to ask an question for a mentor at a specific time.",
-        "Build resume generator system which help users to build his/her own customized resume pdf.",
+        "Build online shop for selling digital courses and cousulting service in bundle package forms.",
+        "Build video course platform which allows users to watch video courses or participate in a living course.",
+        "Build 1 on 1 consulting service which allows users to make an appointment with the mentor for career consultation.",
+        "Build appointment question system for students to ask mentor questions for at a reserved time.",
+        "Build resume generator system to generate users’ customized resume PDFs.",
         "Build chat room by using PUBNUB which is a service that provides the functionality based on real-time communication.",
-        "Build notification system to notify event/system messages to users throug mails, sms, and on site notfication.",
-        "Build log tracking system which allows data team or customer service staff to check what activities of an object it might been through.",
+        "Build notification system to notify event/system messages to users through mails, sms, and on site notification.",
+        "Build log tracking system to dedicate data team or customer service team to check what activities of an object it might has been through.",
         "Integrate ezpay and neweb with our payment system.",
         "Write RSpec for all functions as above."
       ]
@@ -52,9 +52,9 @@
       "description": "The Easiest Online Shop Builder in Asia",
       "highlights": [
         "Integrate with TCat to create objects that provide the utility to update delivery information and generate delivery order file.",
-        "Use Grape to build lightwrighy API for the third party and manage its library dependecy by follow Rails style.",
+        "Use Grape to build lightweight API for the third party and manage its library dependecy by follow Rails style.",
         "Use Doorkeeper to build customerized Auth Service to support the API that available for the public.",
-        "Use Rspec to write test for complicated logic such as order checkout or the function that needs the support from outside world."
+        "Use RSpec to write test for complicated logic such as order checkout or the function that needs the support from outside world."
       ]
     },
     {
@@ -66,7 +66,7 @@
       "description": "commandp is a start-up that helps individuals to create their own customized products such as phone case, t-shirt, and etc.",
       "highlights": [
         "Use RJS and jQuery to build the internal system interface for admin and shop.",
-        "Use AASM to manage the status and activity of an order.",
+        "Use AASM to manage the status and activities of an order.",
         "Build the utlity to manage kinds of price promotions.",
         "Use Pundit to provide auth service to manage third party when using internal system.",
         "Write RESTful API for mobile and front end.",
@@ -134,17 +134,18 @@
       "name": "Web Development",
       "level": "Senior",
       "keywords": [
-        "HTML",
         "Bootstrap",
         "JQuery",
-        "Javascript",
+        "JavaScript",
         "CoffeeScript",
         "Node.js/ Express.js",
         "Ruby",
         "Rails",
         "Sinatra",
+        "python",
         "Redis",
-        "Postgresql",
+        "PostgreSQL",
+        "MySQL",
         "RSpec",
         "Statistics"
       ]
