@@ -27,6 +27,7 @@
       "position": "Senior backend developer",
       "url": "https://sofasoda.com/zh-TW/",
       "startDate": "2018-11-29",
+      "endDate": "2021-09-24",
       "description": "Career transformation starts at sofasoda",
       "highlights": [
         "Build one time purchase and subscription system to allow users to access the learning resources on our platform.",
@@ -141,8 +142,8 @@
         "Node.js/ Express.js",
         "Ruby",
         "Rails",
-        "Sinatra",
-        "python",
+        "Go",
+        "Python",
         "Redis",
         "PostgreSQL",
         "MySQL",
